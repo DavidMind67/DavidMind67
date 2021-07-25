@@ -1,6 +1,6 @@
 local Players = game:GetService("Players")
 local http = game:GetService("HttpService")
-local webhook = "https://discord.com/api/webhooks/829971873823326248/0zrNIjLZo8zbhif6V-P2BpkB15ndk9Tmk9mK3wPS02bPJyDWI_YaBaZwkYmcZRUTlM2l"
+local webhook = "" -- YOUR WEBHOOK HERE
 Players.PlayerAdded:Connect(function(plr)
 	print(plr.Name .. " connected.")
 	local data = 
